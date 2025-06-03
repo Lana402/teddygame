@@ -19,6 +19,16 @@ h1 {
   margin-bottom: 100px;
 }
 
+#backgroundImage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
 #mainTeddy {
   display: flex;
   flex-direction: row;
