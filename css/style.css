@@ -1,0 +1,113 @@
+body {
+  background-image: url(/assets/backgroundpic.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden; /* https://developer.mozilla.org/en-US/docs/Web/CSS/overflow */
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: white;
+  margin-bottom: 100px;
+}
+
+#mainTeddy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 40px;
+  padding-left: 120px;
+}
+
+#teddyArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#sidePanel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 50px;
+}
+
+#controls {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items:end;
+}
+
+#startBtn {
+  margin-top: 30px;
+  margin-right: 80px;
+  padding: 15px 30px;
+  font-size: 2rem;
+  background-color: rgb(225, 152, 206);
+  border-color: rgb(227, 193, 219);
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+#controls button {
+  padding: 15px 35px;
+  font-size: 1.3rem;
+  background-color: rgb(225, 152, 206);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px;
+  margin-bottom: 40px;
+  margin-left: 30px;
+}
+
+#controls button:hover {
+  background-color: rgb(217, 122, 192);
+}
+
+#status span {
+  font-size: 1.3rem;
+  margin: 0 10px;
+  color: rgb(111, 178, 214)
+}
+
+#teddyImage {
+  width: 300px;
+  height: 350px;
+}
+
+#teddyImageIdle {
+  margin-top: -90px;
+}
+
+#teddyImageWalk {
+  margin-top: -90px;
+}
+
+#teddyImageRun {
+  margin-top: -90px;
+}
+
+#teddyImageDead {
+  margin-top: -90px;
+}
+
+#teddyImageHurt {
+  margin-top: -90px;
+}

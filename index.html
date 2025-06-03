@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your virtual Teddy</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico"> <!--https://favicon.io/emoji-favicons/bear-->
+  <link rel="stylesheet" href="css/style.css">
+</head> 
+
+<body>
+  <h1>Your virtual Teddy 🐻</h1> <!--De Teddy emoji komt direct van VS Code-->
+  
+  <audio src="assets/backgroundmusic.mp3" autoplay loop></audio>
+<!-- De background music komt van https://kento-games.itch.io/lo-fi-background-music-->
+
+  <div id="mainTeddy">
+    <div id="teddyPic">
+      <!--De Teddy Assets/sprites zijn van https://segel2d.itch.io/cfa-teddy-bear en ik heb ze via http://ezgif.com/ naar gifs omgezet-->
+      <img src="assets/ezgif.com-animated-gif-idle.gif" alt="Teddy Bear" id="teddyImage" style="display:none;">
+    </div>
+
+    <div id="teddyGifs">
+      <img src="assets/ezgif.com-animated-gif-maker-walk.gif" alt="Teddy Bear Walking" id="teddyImageWalk"
+        style="display:none;">
+      <img src="assets/ezgif.com-animated-gif-idle.gif" alt="Teddy Bear Running" id="teddyImageIdle"
+        style="display:none;">
+      <img src="assets/ezgif.com-animated-gif-hurt.gif" alt="Teddy Bear Hurt" id="teddyImageHurt" style="display:none;">
+      <img src="assets/ezgif.com-animated-gif-deadnoloop.gif" alt="Teddy Bear Dead" id="teddyImageDead"
+        style="display:none;">
+    </div>
+
+    <button id="startBtn">Start</button>
+    <canvas id="game" width="300" height="300" style="display:none;"></canvas>
+
+    <div id="sidePanel">
+      <div id="controls" style="display:none;">
+        <button id="feedBtn">Feed</button>
+        <button id="petBtn">Pet</button>
+      </div>
+
+
+      <div id="status" style="display:none;">
+        <span id="energy">Energy: 100</span>
+        <span id="happiness">Happiness: 100</span>
+      </div>
+
+      <script src="js/javascript.js" defer></script>
+</body>
+</html>
