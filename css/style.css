@@ -36,7 +36,6 @@ h1 {
   justify-content: center;
   width: 100%;
   margin-top: 40px;
-  margin-bottom: 80px;
   padding-left: 120px;
 }
 
@@ -99,8 +98,8 @@ h1 {
 }
 
 #teddyImage {
-  width: 300px;
-  height: 350px;
+  width: 200px;
+  height: 250px;
 }
 
 #teddyImageIdle {
