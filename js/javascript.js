@@ -34,8 +34,8 @@ function startGame() {
   statusInterval = setInterval(lowerStatus, 5000);
 }
 
-
-  // ✅ Start the music when the game starts
+//ChatGPT
+  // Prompt: Ik wil dat de background music afspeelt wanneert de game start. (want op sommige browsers werkt autoplay niet)
   const bgMusic = new Audio('assets/backgroundmusic.mp3');
   bgMusic.loop = true;
   bgMusic.play().catch(e => {
