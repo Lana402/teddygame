@@ -102,22 +102,12 @@ h1 {
   height: 350px;
 }
 
-#teddyImageIdle {
-  margin-top: -90px;
-}
-
-#teddyImageWalk {
-  margin-top: -90px;
-}
-
-#teddyImageRun {
-  margin-top: -90px;
-}
-
-#teddyImageDead {
-  margin-top: -90px;
-}
-
+#teddyImageIdle,
+#teddyImageWalk,
+#teddyImageRun,
+#teddyImageDead,
 #teddyImageHurt {
-  margin-top: -90px;
+  width: 250px;
+  height: auto;
+  transform: translateY(-30px); /* Shift teddy up */
 }
