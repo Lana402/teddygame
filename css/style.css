@@ -10,7 +10,6 @@ body {
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  overflow: hidden; /* https://developer.mozilla.org/en-US/docs/Web/CSS/overflow */
 }
 
 h1 {
@@ -107,7 +106,4 @@ h1 {
 #teddyImageRun,
 #teddyImageDead,
 #teddyImageHurt {
-  width: 300px;
-  height: 350px;
-  transform: translateY(-50px); /* Shift teddy up */
-}
+ margin-top: -90px;
