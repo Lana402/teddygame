@@ -34,6 +34,14 @@ function startGame() {
   statusInterval = setInterval(lowerStatus, 5000);
 }
 
+
+  // ✅ Start the music when the game starts
+  const bgMusic = new Audio('assets/backgroundmusic.mp3');
+  bgMusic.loop = true;
+  bgMusic.play().catch(e => {
+    console.log("Autoplay failed:", e);
+  });
+
 //ChatGPT
 //Ik wil dat de happiness en energy status elke 5 seconden omlaag gaat
 function updateStatus() {
